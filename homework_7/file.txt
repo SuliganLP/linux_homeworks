@@ -1,0 +1,26 @@
+
+Filesystem                Size      Used Available Use% Mounted on
+/dev/root                 4.9G      2.3G      2.6G  47% /
+devtmpfs                 91.3M         0     91.3M   0% /dev
+#!/bin/bash
+echo "Script launched from: $(pwd)"
+   0 cd /tmp/
+   1 vi file.txt
+   2 df -h | head -3 >> file.txt
+   3 cat file.txt 
+   4 clear
+   5 chmod 730 file.txt
+   6 touch myfirstbashscript.sh
+   7 ls
+   8 chmod 755 myfirstbashscript.sh
+   9 export USER=Alexander
+  10 env
+  11 cd ../..
+  12 env
+  13 clear
+  14 vi /tmp/myfirstbashscript.sh
+  15 cd /tmp/
+  16 ./myfirstbashscript.sh
+  17 cat myfirstbashscript.sh >> file.txt
+  18 cat file.txt 
+  19 history >> file.txt
